@@ -1,0 +1,36 @@
+page-customer {
+  .topRightCornerBtns {
+    margin-left: 87%;
+    padding-top: 5px;
+  }
+  .customerName {
+    color: #5e5d5c;
+    padding-left: 7%;
+    font-weight: bold;
+    font-size: large;
+  }
+  .customerCompany {
+    color: #5e5d5c;
+    padding-left: 7%;
+    font-size: small;
+  }
+  .btnFav {
+    margin-top: -10%;
+  }
+  .btnEdit {
+    margin-top: -10%;
+    padding-left: 8px;
+  }
+  .iconCol {
+    width: auto;
+  }
+  .cardContentTitle {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgba(94, 93, 92, 0.5);
+  }
+  .cardContent {
+    color: #5e5d5c;
+    font-weight: bold;
+  }
+}
