@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
+import {ProductsPage} from "../products/products";
 
 /**
  * Generated class for the CustomerPage page.
@@ -17,6 +18,10 @@ export class CustomerPage {
     tabBarElement: any;
     constructor(public navCtrl: NavController, public navParams: NavParams) {
         this.tabBarElement = document.querySelector('.tabbar.show-tabbar');
+    }
+
+    gotoProduct(){
+        this.navCtrl.push(ProductsPage);
     }
 
     ionViewDidLoad() {

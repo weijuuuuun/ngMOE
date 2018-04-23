@@ -14,6 +14,7 @@ import {NotificationPage} from "../pages/notification/notification";
 import {RegisterPage} from "../pages/register/register";
 import {LoginPage} from "../pages/login/login";
 import {CustomerPage} from "../pages/customer/customer";
+import {ProductsPage} from "../pages/products/products";
 
 @NgModule({
     declarations: [
@@ -25,7 +26,8 @@ import {CustomerPage} from "../pages/customer/customer";
         NotificationPage,
         RegisterPage,
         LoginPage,
-        CustomerPage
+        CustomerPage,
+        ProductsPage
     ],
     imports: [
         BrowserModule,
@@ -41,7 +43,8 @@ import {CustomerPage} from "../pages/customer/customer";
         NotificationPage,
         RegisterPage,
         LoginPage,
-        CustomerPage
+        CustomerPage,
+        ProductsPage
     ],
     providers: [
         StatusBar,
